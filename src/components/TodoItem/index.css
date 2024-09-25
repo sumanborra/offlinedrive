@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.list-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-left: 5px solid rgb(90, 7, 168);
+    padding: 10px;
+  }
+  @media (max-width: 767px) {
+    .list-style {
+      margin-bottom: 5px;
+    }
+  }
+  .para {
+    font-family: 'Roboto';
+    color: #000000;
+    font-size: 22px;
+  }
+  @media (max-width: 767px) {
+    .para {
+      font-size: 10px;
+    }
+  }
+  .buttn {
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    color: #ff0b37;
+    height: 40px;
+    width: 120px;
+    border: 1px solid #ff0b37;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+  }
+  @media (max-width: 767px) {
+    .buttn {
+      height: 20px;
+      width: 80px;
+    }
+  }
+  .changing-ttol-container{
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width:767px) {
+    .changing-ttol-container{
+        flex-direction: column;
+    }
+  }
+  .buttn-edit{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .check-box{
+    height: 20px;
+    width: 20x;
+  }

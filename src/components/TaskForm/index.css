@@ -1,0 +1,30 @@
+.input-element-for-adding-editing-task{
+    font-family: "Roboto";
+    font-size: 16px;
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+}
+@media screen and (max-width:767px) {
+    .input-element-for-adding-editing-task{
+        height: 30px;
+        width: 80%;
+    }
+}
+.add-todo-container{
+    display: flex;
+    align-items: center;
+}
+.buttn-add{
+    font-family: "Roboto";
+    font-size: 14px;
+    border: none;
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
